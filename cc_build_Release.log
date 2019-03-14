@@ -1,0 +1,40 @@
+--------------------------  ACcontrol.pjt - Release  --------------------------
+[DSP281x_CodeStartBranch.asm] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/CCStudio_v3.3/MyProjects/ECT-2017-8-29/Release" -d"LARGE_MODEL" -ml -v28 -@"Release.lkf" "DSP281x_CodeStartBranch.asm"
+
+[DSP281x_usDelay.asm] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/CCStudio_v3.3/MyProjects/ECT-2017-8-29/Release" -d"LARGE_MODEL" -ml -v28 -@"Release.lkf" "DSP281x_usDelay.asm"
+
+[DSP28_CpuTimers.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/CCStudio_v3.3/MyProjects/ECT-2017-8-29/Release" -d"LARGE_MODEL" -ml -v28 -@"Release.lkf" "DSP28_CpuTimers.c"
+
+[DSP28_DefaultIsr.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/CCStudio_v3.3/MyProjects/ECT-2017-8-29/Release" -d"LARGE_MODEL" -ml -v28 -@"Release.lkf" "DSP28_DefaultIsr.c"
+"DSP28_DefaultIsr.c", line 917: warning: function declared implicitly
+"DSP28_DefaultIsr.c", line 936: warning: function declared implicitly
+"DSP28_DefaultIsr.c", line 963: warning: function declared implicitly
+"DSP28_DefaultIsr.c", line 990: warning: function declared implicitly
+"DSP28_DefaultIsr.c", line 1017: warning: function declared implicitly
+"DSP28_DefaultIsr.c", line 1046: warning: function declared implicitly
+"DSP28_DefaultIsr.c", line 1233: warning: function declared implicitly
+"DSP28_DefaultIsr.c", line 1420: warning: function declared implicitly
+
+[DSP28_GlobalVariableDefs.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/CCStudio_v3.3/MyProjects/ECT-2017-8-29/Release" -d"LARGE_MODEL" -ml -v28 -@"Release.lkf" "DSP28_GlobalVariableDefs.c"
+
+[DSP28_Gpio.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/CCStudio_v3.3/MyProjects/ECT-2017-8-29/Release" -d"LARGE_MODEL" -ml -v28 -@"Release.lkf" "DSP28_Gpio.c"
+
+[DSP28_InitPeripherals.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/CCStudio_v3.3/MyProjects/ECT-2017-8-29/Release" -d"LARGE_MODEL" -ml -v28 -@"Release.lkf" "DSP28_InitPeripherals.c"
+
+[DSP28_PieCtrl.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/CCStudio_v3.3/MyProjects/ECT-2017-8-29/Release" -d"LARGE_MODEL" -ml -v28 -@"Release.lkf" "DSP28_PieCtrl.c"
+
+[DSP28_PieVect.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/CCStudio_v3.3/MyProjects/ECT-2017-8-29/Release" -d"LARGE_MODEL" -ml -v28 -@"Release.lkf" "DSP28_PieVect.c"
+
+[DSP28_Sci.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/CCStudio_v3.3/MyProjects/ECT-2017-8-29/Release" -d"LARGE_MODEL" -ml -v28 -@"Release.lkf" "DSP28_Sci.c"
+
+[DSP28_SysCtrl.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/CCStudio_v3.3/MyProjects/ECT-2017-8-29/Release" -d"LARGE_MODEL" -ml -v28 -@"Release.lkf" "DSP28_SysCtrl.c"
+
+[DSP28_Xintf.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/CCStudio_v3.3/MyProjects/ECT-2017-8-29/Release" -d"LARGE_MODEL" -ml -v28 -@"Release.lkf" "DSP28_Xintf.c"
+
+[main.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/CCStudio_v3.3/MyProjects/ECT-2017-8-29/Release" -d"LARGE_MODEL" -ml -v28 -@"Release.lkf" "main.c"
+
+[Linking...] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -@"Release.lkf"
+<Linking>
+
+Build Complete,
+  0 Errors, 8 Warnings, 0 Remarks.

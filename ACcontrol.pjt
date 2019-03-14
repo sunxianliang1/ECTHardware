@@ -1,0 +1,55 @@
+; Code Composer Project File, Version 2.0 (do not modify or remove this line)
+
+[Project Settings]
+ProjectDir="C:\CCStudio_v3.3\MyProjects\ECT-8255\"
+ProjectType=Executable
+CPUFamily=TMS320C28XX
+Tool="Compiler"
+Tool="CustomBuilder"
+Tool="DspBiosBuilder"
+Tool="Linker"
+Config="Debug"
+Config="Release"
+
+[Source Files]
+Source="C:\CCStudio_v3.3\C2000\cgtools\lib\rts2800_ml.lib"
+Source="DSP281x_CodeStartBranch.asm"
+Source="DSP281x_usDelay.asm"
+Source="DSP28_CpuTimers.c"
+Source="DSP28_DefaultIsr.c"
+Source="DSP28_GlobalVariableDefs.c"
+Source="DSP28_Gpio.c"
+Source="DSP28_InitPeripherals.c"
+Source="DSP28_PieCtrl.c"
+Source="DSP28_PieVect.c"
+Source="DSP28_Sci.c"
+Source="DSP28_SysCtrl.c"
+Source="DSP28_Xintf.c"
+Source="main.c"
+Source="DSP281x_Headers_nonBIOS2.cmd"
+Source="F2812.cmd"
+
+["Compiler" Settings: "Debug"]
+Options=-g -pdsw225 -fr"$(Proj_dir)\Debug" -i"$(Proj_dir)" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28
+
+["Compiler" Settings: "Release"]
+Options=-g -pdsw225 -fr"$(Proj_dir)\Release" -d"LARGE_MODEL" -ml -v28
+
+["Linker" Settings: "Debug"]
+Options=-c -m".\Debug\ACcontrol.map" -o".\Debug\ACcontrol.out" -stack800 -w -x
+
+["Linker" Settings: "Release"]
+Options=-c -m".\Release\ACcontrol.map" -o".\Release\ACcontrol.out" -stack800 -w -x
+
+["DSP281x_Headers_nonBIOS2.cmd" Settings: "Debug"]
+LinkOrder=1
+
+["DSP281x_Headers_nonBIOS2.cmd" Settings: "Release"]
+LinkOrder=1
+
+["F2812.cmd" Settings: "Debug"]
+LinkOrder=1
+
+["F2812.cmd" Settings: "Release"]
+LinkOrder=1
+

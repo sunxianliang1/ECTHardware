@@ -1,0 +1,52 @@
+---------------------------  ACcontrol.pjt - Debug  ---------------------------
+[DSP281x_CodeStartBranch.asm] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/CCStudio_v3.3/MyProjects/ECT-8255/Debug" -i"C:/CCStudio_v3.3/MyProjects/ECT-8255" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"Debug.lkf" "DSP281x_CodeStartBranch.asm"
+
+[DSP281x_usDelay.asm] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/CCStudio_v3.3/MyProjects/ECT-8255/Debug" -i"C:/CCStudio_v3.3/MyProjects/ECT-8255" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"Debug.lkf" "DSP281x_usDelay.asm"
+
+[DSP28_DefaultIsr.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/CCStudio_v3.3/MyProjects/ECT-8255/Debug" -i"C:/CCStudio_v3.3/MyProjects/ECT-8255" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"Debug.lkf" "DSP28_DefaultIsr.c"
+"DSP28_DefaultIsr.c", line 910: error: identifier "z" is undefined
+"DSP28_DefaultIsr.c", line 910: error: identifier "Sci_Bufdec" is undefined
+"DSP28_DefaultIsr.c", line 916: warning: function declared implicitly
+"DSP28_DefaultIsr.c", line 932: error: identifier "E_empty" is undefined
+"DSP28_DefaultIsr.c", line 932: error: identifier "E_full" is undefined
+"DSP28_DefaultIsr.c", line 935: warning: function declared implicitly
+"DSP28_DefaultIsr.c", line 962: warning: function declared implicitly
+"DSP28_DefaultIsr.c", line 989: warning: function declared implicitly
+"DSP28_DefaultIsr.c", line 1016: warning: function declared implicitly
+"DSP28_DefaultIsr.c", line 1045: warning: function declared implicitly
+"DSP28_DefaultIsr.c", line 1054: error: identifier "Sci_VarRx2" is undefined
+"DSP28_DefaultIsr.c", line 1055: error: identifier "E_empty" is undefined
+"DSP28_DefaultIsr.c", line 1232: warning: function declared implicitly
+"DSP28_DefaultIsr.c", line 1242: error: identifier "E_full" is undefined
+"DSP28_DefaultIsr.c", line 1419: warning: function declared implicitly
+"DSP28_DefaultIsr.c", line 1574: error: identifier "Sci_Bufdec" is undefined
+"DSP28_DefaultIsr.c", line 1574: error: identifier "z" is undefined
+9 errors detected in the compilation of "DSP28_DefaultIsr.c".
+
+>> Compilation failure
+
+[DSP28_GlobalVariableDefs.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/CCStudio_v3.3/MyProjects/ECT-8255/Debug" -i"C:/CCStudio_v3.3/MyProjects/ECT-8255" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"Debug.lkf" "DSP28_GlobalVariableDefs.c"
+
+[DSP28_Gpio.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/CCStudio_v3.3/MyProjects/ECT-8255/Debug" -i"C:/CCStudio_v3.3/MyProjects/ECT-8255" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"Debug.lkf" "DSP28_Gpio.c"
+
+[DSP28_InitPeripherals.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/CCStudio_v3.3/MyProjects/ECT-8255/Debug" -i"C:/CCStudio_v3.3/MyProjects/ECT-8255" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"Debug.lkf" "DSP28_InitPeripherals.c"
+
+[DSP28_PieCtrl.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/CCStudio_v3.3/MyProjects/ECT-8255/Debug" -i"C:/CCStudio_v3.3/MyProjects/ECT-8255" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"Debug.lkf" "DSP28_PieCtrl.c"
+
+[DSP28_PieVect.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/CCStudio_v3.3/MyProjects/ECT-8255/Debug" -i"C:/CCStudio_v3.3/MyProjects/ECT-8255" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"Debug.lkf" "DSP28_PieVect.c"
+
+[DSP28_Sci.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/CCStudio_v3.3/MyProjects/ECT-8255/Debug" -i"C:/CCStudio_v3.3/MyProjects/ECT-8255" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"Debug.lkf" "DSP28_Sci.c"
+
+[DSP28_SysCtrl.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/CCStudio_v3.3/MyProjects/ECT-8255/Debug" -i"C:/CCStudio_v3.3/MyProjects/ECT-8255" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"Debug.lkf" "DSP28_SysCtrl.c"
+
+[DSP28_Xintf.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/CCStudio_v3.3/MyProjects/ECT-8255/Debug" -i"C:/CCStudio_v3.3/MyProjects/ECT-8255" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"Debug.lkf" "DSP28_Xintf.c"
+
+[main.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/CCStudio_v3.3/MyProjects/ECT-8255/Debug" -i"C:/CCStudio_v3.3/MyProjects/ECT-8255" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"Debug.lkf" "main.c"
+"main.c", line 13: error: declaration is incompatible with "int Error" (declared at line 25 of "common.h")
+"main.c", line 112: error: identifier "ISRTimer0" is undefined
+2 errors detected in the compilation of "main.c".
+
+>> Compilation failure
+
+Build Complete,
+  11 Errors, 8 Warnings, 0 Remarks.
